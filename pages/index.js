@@ -1,6 +1,5 @@
 import Head from "next/head";
 
-
 export default function Home() {
   return (
     <div>
@@ -8,7 +7,15 @@ export default function Home() {
         <title>World Trip</title>
       </Head>
 
-      <main>ola</main>
+      <main
+        srtle={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        ola mundo
+      </main>
     </div>
   );
 }
