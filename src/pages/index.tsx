@@ -10,6 +10,7 @@ export default function Home() {
         <Header />
         <Banner/>
         <Caracteristicas/>
+        <Separador/>
       </Flex>
     </>
   );
