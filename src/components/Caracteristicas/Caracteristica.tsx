@@ -7,7 +7,7 @@ interface CaracteristicasProps {
   text: string;
 }
 
-export default function Caracteristicas({ icon, text }: CaracteristicasProps) {
+export default function Caracteristica({ icon, text }: CaracteristicasProps) {
   const isMobile = useBreakpointValue({
     base: false,
     sm: true,

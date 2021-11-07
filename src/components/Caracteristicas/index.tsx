@@ -1,7 +1,7 @@
 import { Grid, GridItem } from "@chakra-ui/react";
-import Caracteristicas from "./Caracteristica";
+import Caracteristica from "./Caracteristica";
 
-export default function Caracteristica() {
+export default function Caracteristicas() {
   return (
     <>
       <Grid
@@ -15,19 +15,19 @@ export default function Caracteristica() {
         gap={[1, 5]}
       >
         <GridItem>
-          <Caracteristicas icon="cocktail" text="Vida noturna" />
+          <Caracteristica icon="cocktail" text="Vida noturna" />
         </GridItem>
         <GridItem>
-          <Caracteristicas icon="surf" text="Praia" />
+          <Caracteristica icon="surf" text="Praia" />
         </GridItem>
         <GridItem>
-          <Caracteristicas icon="building" text="Moderno" />
+          <Caracteristica icon="building" text="Moderno" />
         </GridItem>
         <GridItem>
-          <Caracteristicas icon="museum" text="clássico" />
+          <Caracteristica icon="museum" text="clássico" />
         </GridItem>
         <GridItem colSpan={[2, 2, 2, 1]}>
-          <Caracteristicas icon="earth" text="e mais..." />
+          <Caracteristica icon="earth" text="e mais..." />
         </GridItem>
       </Grid>
     </>
