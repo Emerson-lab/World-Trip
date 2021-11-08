@@ -9,6 +9,7 @@ export default function Home() {
   return (
     <>
       <Flex direction="column">
+        <title>WorldTrip</title>
         <Header />
         <Banner />
         <Caracteristicas />
