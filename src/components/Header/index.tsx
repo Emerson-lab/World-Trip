@@ -41,7 +41,7 @@ export default function Header() {
           )}
           <Image
             w={["81px", "184px"]}
-            src="logo.png"
+            src="/logo.png"
             alt="Um avião voando sobre o nome da marca World Trip"
             justifySelf="center"
             gridColumn="2"
