@@ -1,4 +1,12 @@
-import { Flex, Heading, Text } from "@chakra-ui/react";
+import {
+  Flex,
+  Heading,
+  Text,
+  Popover,
+  PopoverTrigger,
+  Icon,
+} from "@chakra-ui/react";
+import { RiInformationLine } from "react-icons/ri";
 
 export default function Infos() {
   return (
@@ -36,7 +44,21 @@ export default function Infos() {
           27
         </Heading>
         <Text fontWeight="600" fontSize={["md", "xl"]} color="gray.700">
-          cidades+100
+          cidades + 100
+          <Popover>
+            <PopoverTrigger>
+              <span>
+                <Icon
+                  cursor="pointer"
+                  as={RiInformationLine}
+                  ml="1"
+                  color="gray.400"
+                  w={["10px", "16px"]}
+                  h={["10px", "16px"]}
+                />
+              </span>
+            </PopoverTrigger>
+          </Popover>
         </Text>
       </Flex>
     </Flex>
