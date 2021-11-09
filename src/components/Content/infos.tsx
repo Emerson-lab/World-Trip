@@ -5,6 +5,10 @@ import {
   Popover,
   PopoverTrigger,
   Icon,
+  PopoverContent,
+  PopoverArrow,
+  PopoverCloseButton,
+  PopoverBody,
 } from "@chakra-ui/react";
 import { RiInformationLine } from "react-icons/ri";
 
@@ -58,6 +62,11 @@ export default function Infos() {
                 />
               </span>
             </PopoverTrigger>
+            <PopoverContent bg="gray.700" color="yellow.400">
+              <PopoverArrow bg="gray.700" />
+              <PopoverCloseButton />
+              <PopoverBody fontWeight="400" fontSize="lg">Paris, Europa, Chile, Canadá, China</PopoverBody>
+            </PopoverContent>
           </Popover>
         </Text>
       </Flex>
